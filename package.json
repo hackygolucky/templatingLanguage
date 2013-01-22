@@ -1,0 +1,21 @@
+{
+  "name": "templatingLanguage",
+  "version": "0.0.0",
+  "description": "A simple templating language written as part of a tutorial on JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hackygolucky/templatingLanguage.git"
+  },
+  "keywords": [
+    "template",
+    "tutorial",
+    "simple"
+  ],
+  "author": "Tracy Abrahms <tracyabrahms@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
