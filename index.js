@@ -1,8 +1,10 @@
 module.exports = template
+var lookup = require('dotpathlookup')
+
 
 function template(input) {
 	var items = [];
-	var regex = /\{\{\s*(\w+)\s*\}\}/;
+	var regex = /\{\{\s*([\w\d\-\.]*)\s*\}\}/;
 	// [whole match, group n, index: where found it]
 	var match;
 	while (match = regex.exec(input)) {
@@ -31,8 +33,4 @@ function raw(str) {
 	}
 }
 
-function lookup(str) {
-	return function(context) {
-		return context[str];
-	}
-}
+

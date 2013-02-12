@@ -17,5 +17,8 @@
   ],
   "author": "Tracy Abrahms <tracyabrahms@gmail.com>",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "dotpathlookup": "0.0.1"
+  }
 }

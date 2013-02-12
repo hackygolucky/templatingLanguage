@@ -19,3 +19,15 @@ var result = tpl({
 })  // == "i have five cherries"
 
 assert.equal( result, "i have five cherries", "These should match")
+
+
+var tpl = your_function("{{ check.it.out }}" )
+var result = tpl({
+  check:{
+  	it:{
+  		out: "woop woop"
+  	}
+  }
+})  // == "woop woop"
+
+assert.equal( result, "woop woop")
