@@ -1,6 +1,6 @@
 {
   "name": "templatinglanguage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple templating language written as part of a tutorial on JavaScript.",
   "main": "index.js",
   "scripts": {
