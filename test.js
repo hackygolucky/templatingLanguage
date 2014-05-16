@@ -32,19 +32,3 @@ var result = tpl({
 
 assert.equal( result, "woop woop")
 
-
-var tpl = your_function(
-"<ul>
-{% for item in items %}
-		<li>{% if item.okay %}it's okay{% else %}it's not okay{% endif %}</li>
-{% endfor %}
-</ul>
-{{ message }} )"
-
-var result = tpl({
-    items: [{okay: true}, {okay: false}]
-  , message: "hello world"
-}) 
-
-assert.equal( result, "hello world")
-

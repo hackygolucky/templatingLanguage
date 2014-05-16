@@ -1,6 +1,5 @@
 module.exports = template
 var lookup = require('dotpathlookup')
-var Parser = require('parser')
 
 
 function template(input) {
